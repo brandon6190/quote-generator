@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quote Generator</title>
+		<link href="./css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	</head>
+	<body>
+		<section>
+			<div class="container">
+				<h1>Random Quote Generator</h1>
+				<div id="quoteDisplay">
+					<!--Quotes go here-->
+				</div>
+				<button onclick="newQuote()">New Quote</button>
+			</div>
+		</section>
+		<script src="main.js"></script>
+	</body>
+</html>
